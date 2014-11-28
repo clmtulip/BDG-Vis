@@ -1,0 +1,55 @@
+\begin{thebibliography}{1}
+
+\bibitem{Bhringer:1990:HFC}
+K.~B{\H{o}}hringer and F.~Paulisch.
+\newblock Using constraints to achieve stability in automatic graph layout
+  algorithms.
+\newblock In {\em Proceedings of the ACM SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 43--51, 1990.
+
+\bibitem{Brandes:1997:GD}
+C.~Brandes and D.~Wagner.
+\newblock A bayesian paradigm for dynamic graph layout.
+\newblock In {\em The 5th International Symposium on Graph Drawing}, GD '97,
+  pages 236--247, 1997.
+
+\bibitem{Diehl:2002:GD}
+S.~Diehl and C.~G\"{o}rg.
+\newblock Graphs, they are changing.
+\newblock In {\em the 10th International Symposium on Graph Drawing}, GD '02,
+  pages 23--30, 2002.
+
+\bibitem{Eades:1991:POC}
+P.~Eades, W.~Lai, K.~Misue, and S.~K.
+\newblock Preserving the mental map of a diagram.
+\newblock In {\em Proceedings of Compugraphics}, volume~91, pages 24--33, 1991.
+
+\bibitem{He:1998:C}
+W.~He and K.~Marriott.
+\newblock Constrained graph layout.
+\newblock {\em Constraints}, 3:289--314, 1998.
+
+\bibitem{Kumar:2006:VEC}
+G.~Kumar and M.~Garland.
+\newblock Visual exploration of complex time-varying graphs.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  12:805--812, 2006.
+
+\bibitem{Max:1995:OMF}
+N.~Max.
+\newblock Optical models for direct volume rendering.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  1(2):99--108, June 1995.
+
+\bibitem{Misue:1995:VLC}
+K.~Misue, P.~Eades, W.~Lai, and K.~Sugiyama.
+\newblock Layout adjustment and the mental map.
+\newblock {\em Jurnal of Visual Languages and Computing}, 6:183--210, 1995.
+
+\bibitem{North:1996:GD}
+S.~C. North.
+\newblock Incremental layout in dynadag.
+\newblock In {\em In Proceedings of the 4th Symposium on Graph Drawing (GD)},
+  pages 409--418, 1996.
+
+\end{thebibliography}

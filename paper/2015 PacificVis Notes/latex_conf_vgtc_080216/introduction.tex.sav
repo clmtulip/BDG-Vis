@@ -1,0 +1,16 @@
+\section{Introduction}
+In many applications,
+graphs are widely used to represent social connections, physical networks, or other relationships.
+Most of these graphs are changing over time, for example in a social connection, some new people add
+in, some old ones leave. To reflect the evolution of the organization or system represented by the graph, 
+we can keep a track of snapshots once the graph changed. This kind of sequence graph layout is called
+dynamic graph layout problem.
+
+Traditional Graph drawing algorithms are well studied since
+early year, layout methods, such as force-directed or stress model layout algorithms are
+all concentrate on static graph. They produce a totally new layout each time we run the algorithm. 
+Since the dynamic graph sequence is a evolution of a graph, there must be some parts not changed, which
+we hope their layout are also not changed. Therefore in dynamic graph drawing, the challenge is that we have to 
+layout a current graph aesthetically good while preserving the "mental map" of previous time step.
+
+

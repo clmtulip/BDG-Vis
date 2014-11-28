@@ -1,0 +1,100 @@
+@article{Max:1995:OMF,
+  author = "Nelson Max",
+  title = "Optical models for direct volume rendering",
+  year = "1995",
+  month = jun,
+  journal = "IEEE Transactions on Visualization and Computer
+    Graphics",
+  volume = "1",
+  number = "2",
+  pages = "99--108",
+}
+
+@inproceedings{Bhringer:1990:HFC,
+  author = "B{\H{o}}hringer, K. and Paulisch, F.",
+  title = "Using Constraints to Achieve Stability in Automatic Graph Layout Algorithms",
+  year = "1990",
+  booktitle = "Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems",
+  pages = "43--51",
+}
+
+@inproceedings{Eades:1991:POC,
+  author = "Eades, P. and Lai, W. and Misue, K. and Sugiyama K.",
+  title = "Preserving the Mental Map of a Diagram",
+  year = "1991",
+  booktitle = "Proceedings of Compugraphics",
+  volume = 91,
+  pages = "24--33",
+}
+
+@article{Misue:1995:VLC,
+  author = "Misue, K. and Eades, P. and Lai, W. and Sugiyama, K",
+  title = "Layout Adjustment and the Mental Map",
+  year = "1995",
+  journal = "Jurnal of Visual Languages and Computing",
+  volume = 6,
+  pages = "183--210",
+}
+
+@article{Misue:1995:VLC,
+  author = "Davidson, R. and Harel D",
+  title = "Layout Adjustment and the Mental Map",
+  year = "1995",
+  journal = "Jurnal of Visual Languages and Computing",
+  volume = 6,
+  pages = "183--210",
+}
+
+@inproceedings{North:1996:GD,
+  author = "North, S. C.",
+  title = "Incremental layout in DynaDAG",
+  year = "1996",
+  booktitle = "In Proceedings of the 4th Symposium on Graph Drawing (GD)",
+  pages = "409--418",
+}
+
+@inproceedings{Brandes:1997:GD,
+ author = {Brandes, CarstenUlrik and Wagner, Dorothea},
+ title = {A bayesian paradigm for dynamic graph layout},
+ booktitle = {The 5th International Symposium on Graph Drawing},
+ series = {GD '97},
+ year = {1997},
+ pages = {236--247},
+}
+
+@article{He:1998:C,
+  author = "He, W. and Marriott, K.",
+  title = "Constrained Graph Layout",
+  year = "1998",
+  journal = "Constraints",
+  volume = 3,
+  pages = "289--314",
+}
+
+@inproceedings{Diehl:2002:GD,
+ author = {Diehl, Stephan and G\"{o}rg, Carsten},
+ title = {Graphs, They Are Changing},
+ booktitle = { the 10th International Symposium on Graph Drawing},
+ series = {GD '02},
+ year = {2002},
+ pages = {23--30},
+}
+
+@article{Kumar:2006:VEC,
+ author = {Kumar, Gautam and Garland, Michael},
+ title = {Visual Exploration of Complex Time-Varying Graphs},
+ journal = {IEEE Transactions on Visualization and Computer Graphics},
+ volume = {12},
+ year = {2006},
+ pages = {805--812},
+}
+
+
+@article{Yuan:2012:TVCG,
+ author = {Yuan, Xiaoru and Che, Limei and Hu, Yifan and Zhang, Xin},
+ title = {Intelligent Graph Layout Using Many Users' Input},
+ journal = {IEEE Transactions on Visualization and Computer Graphics},
+ volume = {18},
+ year = {2012},
+ pages = {2699--2708},
+}

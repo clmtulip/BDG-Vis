@@ -1,0 +1,26 @@
+\section{Laplacian based Dynamic Graph Drawing Algorithm}
+In this section we describe our algorithm in detail. 
+Given a sequence of online graphs $G_{0}, ..., G_{n}$, where $G_{0} = (V_{0}, E_{0}), ..., G_{n} = (V_{n}, E_{n})$,
+the goal of our algorithm is to produce a sequence of layouts $L_{0}, ..., L_{n}$, where $L_{i}$ is a straight line
+drawing of $G_{i}$. We first describe how to compute the online dynamic layout $L_{i}, i \ge 1$, when given $L_{i-1}$
+and $G_{i}$. Then, we discuss the way to compute initial layout $L_{0}$.
+
+\subsection{Laplacian based dynamic graph layout algorithm}
+In the dynamic graph sequence, for each graph $G_{i} = (V_{i}, E_{i})$, each node has a unique id 'UId'.
+Through this unique id, we can recognize the same nodes in different time step.
+The following are the basic steps of our algorithm:
+\begin{enumerate}
+    \item Calculate initial node positions from previous graph layout $L_{i-1}$.
+    \item Run force-directed layout algorithms.
+    \item Run Laplacian Constrained Distance Embedding algorithm to refine the mental map.
+\end{enumerate}
+
+\textbf{Step 1:} For each node $v$ in $G_{i}$, which is existed in $G_{i-1}$, copy
+the coordinates from $L_{i-1}$ to this node; for those new added nodes, calculate their coordinates
+according to their neighbors as follows: if node $v$ has more than one positioned neighbors, then 
+this node is assigned the barycenter of all its positioned neighbours; if node $v$ has only one positioned
+neighbour, then calculate the average edge length 'avg_edge_length', 
+
+
+\subsection{Initial layout of dynamic graph}
+

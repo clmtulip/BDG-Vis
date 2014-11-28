@@ -1,0 +1,23 @@
+@article{Max:1995:OMF,
+  author = "Nelson Max",
+  title = "Optical models for direct volume rendering",
+  year = "1995",
+  month = jun,
+  journal = "IEEE Transactions on Visualization and Computer
+    Graphics",
+  volume = "1",
+  number = "2",
+  pages = "99--108",
+}
+
+
+
+@inproceedings{Lorensen:1987:MCA,
+  author = "Eades, P. and Lai, W. and Misue, K. and Sugiyama K.",
+  title = "Preserving the Mental Map of a Diagram",
+  year = "1991",
+  month = jul,
+  booktitle = "Proceedings of Compugraphics",
+  volume = 91,
+  pages = "24--33",
+}

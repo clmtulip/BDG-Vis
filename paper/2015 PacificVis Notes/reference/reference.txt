@@ -1,0 +1,16 @@
+ARCHAMBAULT D., PURCHASE H. C.: The ¡°Map" in
+the mental map: Experimental results in dynamic graph drawing.
+International Journal of Human-Computer Studies 71, 11 (2013),
+1044 ¨C 1055.
+
+G. Kumar and M. Garland, ?Visual exploration of complex time-varying
+graphs,? IEEE Trans. on Visualization and Computer Graphics, Proc.
+InfoVis, 2006.
+
+C. Erten, P. J. Harding, S. G. Kobourov, K. Wampler, and G. V. Yee,
+?GraphAEL: Graph animations with evolving layouts,? in Proc. 11th Int.
+Symp. Graph Drawing, 2003, pp. 98?110.
+
+
+U. Brandes and D. Wagner, ?A Bayesian paradigm for dynamic graph
+layout,? in Proc. 5th Int. Symp. Graph Drawing, GD, 1997, pp. 85?99.

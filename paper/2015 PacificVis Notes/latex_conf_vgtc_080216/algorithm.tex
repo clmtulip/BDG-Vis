@@ -1,0 +1,39 @@
+\section{Laplacian based Dynamic Graph Drawing Algorithm}
+In this section we describe our algorithm in detail. 
+Given a sequence of online graphs $G_{0}, ..., G_{n}$, where $G_{0} = (V_{0}, E_{0}), ..., G_{n} = (V_{n}, E_{n})$,
+the goal of our algorithm is to produce a sequence of layouts $L_{0}, ..., L_{n}$, where $L_{i}$ is a straight line
+drawing of $G_{i}$. We first describe how to compute the online dynamic layout $L_{i}, i \ge 1$, when given $L_{i-1}$
+and $G_{i}$. Then, we discuss the way to compute initial layout $L_{0}$.
+
+\subsection{Laplacian based dynamic graph layout algorithm}
+In the dynamic graph sequence, for each graph $G_{i} = (V_{i}, E_{i})$, each node has a unique id 'UId'.
+Through this unique id, we can recognize the same nodes in different time step.
+The following are the basic steps of our algorithm:
+\begin{enumerate}
+    \item Calculate initial node positions from previous graph layout $L_{i-1}$.
+    \item Run force-directed layout algorithm.
+    \item Run Laplacian Constrained Distance Embedding algorithm to refine the mental map.
+\end{enumerate}
+
+\textbf{Step 1:} For each node $v$ in $G_{i}$, which is existed in $G_{i-1}$, copy
+the coordinates from $L_{i-1}$ to this node; for those new added nodes, calculate their coordinates
+according to their neighbors as follows: if node $v$ has more than one positioned neighbors, then 
+this node is assigned the barycenter of all its positioned neighbours; if node $v$ has only one positioned
+neighbour $p$, select a random position on the circle which take $p$ as center of this circle, and the average edge length 'avg_edge_length' of $L_{i-1}$ as radius; if node $v$ has no positioned neighbour, then it can be placed
+randomly.
+
+\textbf{Step 2:} Run force-directed layout algorithm starting from the positions assigned in step 1. Here we use 
+the simulated annealing force-directed layout algorithm~\cite{Davidson:1996:ATG} to adjust the layout $L_{i}$. For
+different nodes we set different cooling parameters. In order to keep the existed nodes as stable as possible, we
+have to frozen these nodes which copy coordinates from $L_{i-1}$, only small movements allowed. For those nodes that
+are totally random positioned, we should let them move far away enough to find their best positions, so the cooling 
+parameter should be high. In our implementation, scores of 0.25, 0.5, 0.75 and 1 are assigned to nodes positioned
+copied from $L_{i-1}$, at the barycenter of two or more neighbors, according to one neighbor, and totally random ones,
+respectively. 
+
+\textbf{Step 3:} Although we have preserved user mental map by setting a small parameter of cooling step, but it's still far from stable. The nodes both existed in graph $G_{i-1}$ and $G_{i}$ move a lot by the forces from 
+new added and disappeared nodes and edges. Inspired by the Laplacian constrained graph layout algorithm~\cite{Yuan:2012:TVCG}, we can take the subgraph consist of nodes that are copied from $L_{i-1}$ as
+a user input subgraph, then run the Laplacian constrained distance embedding algorithm. 
+
+\subsection{Initial layout of dynamic graph}
+

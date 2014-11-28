@@ -1,0 +1,12 @@
+\section{Related Works}
+
+There are algorithms solving the off line dynamic graph drawing, where the whole graph sequence is known in advance.
+Early work DynaDag[Incremental layout in DynaDAG] generated a heuristic method for incremental layout of directed
+acyclic graphs drawn as hierarchies.
+[Graphs, They are changing] proposed a general context preserving algorithm, in which for each graph, it's
+layout should have very limited difference between its previous and next time step graph. [visual exploration of complex time varying graphs] developed a stratification hierarchical layout algorithm, which not only speed up the general force directed algorithm but also accommodates time-varying graphs.
+
+There are also few works developed online dynamic graph drawing algorithms, where the whole graph sequence is not known ahead. [A Bayesian paradigm for dynamic graph layout] introduced random field models for graph layout which based on Bayesian decision theory. 
+
+There are some existing algorithms solving the mental map problem,
+such as~\cite{Misue:1995:VLC} maintaining the orthogonal ordering, or adding constrains to the graph~\cite{Bhringer:1990:HFC}~\cite{He:1998:C}. 
